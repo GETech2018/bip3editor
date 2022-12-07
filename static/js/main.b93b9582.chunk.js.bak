@@ -531,6 +531,12 @@
                     height: 320,
                     deviceId: 71,
                     title: "Bip U"
+                },
+				bip3: {
+                    width: 240,
+                    height: 280,
+                    deviceId: 74,
+                    title: "Bip 3"
                 }
             };
             var _e, Qe = n(0),
@@ -5828,6 +5834,22 @@
                             }), Object(Qe.jsx)("label", {
                                 className: "form-check-label",
                                 children: Je.devices.bipu.title
+                            })]
+                        }), Object(Qe.jsxs)("div", {
+                            className: "form-check",
+                            children: [Object(Qe.jsx)("input", {
+                                className: "form-check-input",
+                                type: "radio",
+                                name: "device",
+                                id: "device_bip3",
+                                value: "bip3",
+                                checked: t.deviceId === Je.devices.bip3.deviceId,
+                                onChange: function() {
+                                    return i(Je.devices.bip3)
+                                }
+                            }), Object(Qe.jsx)("label", {
+                                className: "form-check-label",
+                                children: Je.devices.bip3.title
                             })]
                         })]
                     })]

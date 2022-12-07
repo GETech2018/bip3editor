@@ -1543,6 +1543,8 @@
                                         onChange: function() {
                                             var e = Object(Ke.a)({}, n);
                                             e.enabled = !e.enabled, i(e)
+											t.json.X = e, i(t)
+											t.json.Y = e, i(t)
                                         }
                                     })
                                 })]
