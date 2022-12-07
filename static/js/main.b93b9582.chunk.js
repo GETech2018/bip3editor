@@ -971,12 +971,12 @@
 
                     function r(e) {
                         var t = Object(Ke.a)({}, n);
-                        t.json.X = e.nvalue;//e, i(t)
+                        t.json.X = e, i(t)
                     }
 
                     function l(e) {
                         var t = Object(Ke.a)({}, n);
-                        t.json.Y = e.nvalue;//e, i(t)
+                        t.json.Y = e, i(t)
                     }
                     return Object(Qe.jsxs)(ze.a, {
                         children: [Object(Qe.jsx)(ze.a.Header, {
