@@ -1496,7 +1496,7 @@
                                 }, {
                                     title: "Y",
                                     type: _e.Number,
-                                    nvalue: Math.round((78.46 / 100) * n.json.X),
+                                    nvalue: Math.round((78.46 / 100) * n.json.Y),
                                     onChange: u
                                 }]
                             }]
@@ -2770,7 +2770,7 @@
                                 }, {
                                     title: "Y",
                                     type: _e.Number,
-                                    nvalue: Math.round((78.46 / 100) * n.json.Coordinates.X),
+                                    nvalue: Math.round((78.46 / 100) * n.json.Coordinates.Y),
                                     onChange: d
                                 }]
                             }]
